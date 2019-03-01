@@ -1,0 +1,22 @@
+body{
+    margin: auto;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+nav{
+    color: green;
+    height: 50px;
+}
+.container{
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 0px;
+}
+img{
+    width: 25%;
+    height: 25%;
+    margin: 50%;
+}

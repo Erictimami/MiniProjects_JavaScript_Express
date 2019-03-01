@@ -1,0 +1,44 @@
+body{
+    margin: auto;
+    width: 1000px;
+    padding-left: 0px
+}
+
+form{
+    border: solid 2px;
+    width: 500px!important;
+    margin: 100px 0px 0px 250px;
+    padding: 10px 0px 0px 25px;
+}
+select{
+  width: 250px!important;  
+  /* float: right; */
+    /* margin-left: 60%; */
+}
+label{
+    width: 200px!important;
+}
+/* .form-group{
+    
+} */
+#location{
+    display: inline;
+}
+textarea{
+    width: 445px;
+}
+input{
+    width: 200px;
+}
+#inputEmail3{
+    width: 250px!important;
+    margin-right: 30px;
+}
+#your_name{
+    width: 300px!important;
+}
+button{
+    float: right;
+    margin-right: 30px;
+}
+

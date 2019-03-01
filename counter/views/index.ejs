@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            <!-- my own css file link in the last position to be priority-->
+    <link rel="stylesheet" type="text/css" href="/stylesheets/counter.css"> 
+
+    </head>
+    <body class="container" action="/">
+        <h3 >Counter</h3>
+        <p> <%= count %> times </p>   
+        <div>
+            <form action="/increase", method="POST">
+                <button  type="submit" class="btn btn-primary">Increase by 2</button>
+            </form>
+            <form action="/reset", method="POST">
+                    <button  type="submit" class="btn btn-primary">Reset</button> 
+            </form>    
+            <form action="/destroy_session", method="POST"> 
+                <button  type="submit" class="btn btn-primary">Destroy Session</button> 
+            </form>          
+        </div>
+    </body>
+</html>
+

@@ -1,0 +1,19 @@
+
+
+.container{
+    margin: 0px auto;
+    text-align: center;
+    width: 1000px;
+    height: 700px;
+    border: solid 3px;
+    padding-top: 300px
+}
+
+
+
+h2{
+    margin: 0px;
+    margin-left: 40px;
+    text-align: center;
+}
+
